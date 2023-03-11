@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cal">
+        <div class="head">
+            <img src="img/main-removebg-preview.png" alt="">
+            <h2>calculate your BMI </h2>
+        </div>
+
+        <div class="calculate">
+            <h3>bmi calculator</h3>
+            <form method="post" onclick="calculate()" >
+                <div class="form-group">
+                   <label for="name">name</label>
+                   <input type="text" placeholder=" enter your name" id="name">
+                </div>
+                <div class="form-group">
+                   <label for="age">age</label>
+                   <input type="text" placeholder=" enter your age" id="age">
+                </div>
+                <div class="form-group">
+                    <label for="genter">genter</label>
+                    <select name="genter" id="genter">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="hei">height</label>
+                    <input type="text" placeholder=" cm" id="hig">
+                </div>
+                <div class="form-group">
+                   <label for="weig">weight</label>
+                  <input type="text" placeholder=" kg" id="weig">
+                  </div>
+                <div class="form-btn">
+                   <input type="submit" value="calculate" id="btn">
+                   <input type="reset" value="reset">
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

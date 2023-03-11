@@ -1,0 +1,92 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #CD1517;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+
+}
+.head{
+    width: 50vw;
+    background-color:#EAEAEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head img{
+ 
+}
+.calculate{
+    margin-top: 40px;
+    width: 50vw;
+    padding-right: 70px;
+    padding-left:40px;
+
+}
+.calculate h3{
+    display: inline;
+    font-weight: 800;
+    text-transform: capitalize;
+    border-bottom: 2px solid #CD1517;
+    
+}
+.calculate .form-group{
+    margin-top: 10px;
+}
+.calculate .form-group label{
+    display: block;
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: 500;
+}
+.calculate .form-groups{
+    margin-top: 10px;
+}
+.calculate .form-group input,.form-group select{
+    width: 100%;
+    height: 35px;
+    background-color: #ccc;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.calculate .form-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.calculate .form-btn input{
+    width: 100%;
+    height: 35px;
+    background-color:#CD1517;
+    outline: none;
+    border: none;
+    color: white;
+
+}
+.calculate .form-btn input[type=reset]{
+    background-color: #CD1517;
+
+}
+.calculate .form-btn input[type=submit]{
+    background-color: green;
+
+}
+
+
